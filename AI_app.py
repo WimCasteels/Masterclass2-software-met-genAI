@@ -3,6 +3,7 @@ from chatbot_functies import chatbot_response
 
 
 st.title("🤖 Learning AI 🤖")
+st.markdown("Software applicaties met generatieve AI: masterclass 2")
 form = st.form(key="user_settings")
 with form:
     AI_concept = st.text_input("Enter the AI concept you are interested in:", key = "AI_concept")
